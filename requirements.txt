@@ -29,3 +29,8 @@ seaborn
 pyspark
 findspark
 fire
+flask
+transformers
+torch
+torchvision
+pytorch-lightning
