@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text Embedding</title>
+    <title>Text Summarizer</title>
+    <style>
+        /* Your CSS styles here */
+    </style>
 </head>
+
 <body>
-    <h1>Text Embedding</h1>
-    <form method="POST" action="/embed">
-        <label for="data">Enter English Phrase:</label>
-        <input type="text" name="data" id="data" required>
-        <button type="submit">Embed</button>
+    <h1>Text Summarizer</h1>
+    <form action="/generate" method="POST">
+        <label for="input_text">Enter Text:</label><br>
+        <textarea id="input_text" name="input_text" rows="10" cols="50" required></textarea><br><br>
+        <input type="submit" value="Generate Summary">
     </form>
 </body>
+
 </html>
