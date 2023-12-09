@@ -1,17 +1,20 @@
-# Use an official Python runtime as a parent image
-FROM python:3.10
-RUN pip install --upgrade pip
+# Use the VS Code Python development container as the base image
+ARG VARIANT="3.10-bullseye"
+FROM mcr.microsoft.com/vscode/devcontainers/python:0-${VARIANT}
 
-# Set the working directory to /app
+# Copy the application files into the container
 WORKDIR /app
+COPY . /app
 
-# Copy all the contents of the current dir to /app
-ADD . /app
+# Install necessary dependencies
+RUN pip install --no-cache-dir Flask transformers
 
-# Make port 5000 available to the world outside this container
+# Expose the port the app runs on
 EXPOSE 5000
 
-ENV NAME myenv
+# Define environment variables
+ENV FLASK_APP=app.py
+ENV FLASK_RUN_HOST=0.0.0.0
 
-# Run the Flask application
-CMD ["python", "app.py", "--host=0.0.0.0", "--port=5000"]
+# Command to run the application
+CMD ["flask", "run", "--host=0.0.0.0"]
