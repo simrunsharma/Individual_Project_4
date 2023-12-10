@@ -77,7 +77,7 @@ Here is a list of commands to create a docker image:
 4. ``` docker login -u dockerusername -p dockerpassword ```
 
 Here is a representation what the image looks like from the terminal: 
-![Docker Image CLI](https://private-user-images.githubusercontent.com/141798228/289317888-eacbc468-0134-46a6-a541-9771fe38e451.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDIxNjQ3NjQsIm5iZiI6MTcwMjE2NDQ2NCwicGF0aCI6Ii8xNDE3OTgyMjgvMjg5MzE3ODg4LWVhY2JjNDY4LTAxMzQtNDZhNi1hNTQxLTk3NzFmZTM4ZTQ1MS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMxMjA5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMTIwOVQyMzI3NDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04ZGRlOGE5YmUzYmEyYTJjM2UzOGMxMjM4NTgxMjZkMDgxODIzOTgyOGZiNzczYTk3OWY2ZjlhMjlmMWZiNGRlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.Rhz7gfsqMivtzhHQz7UHA8D4eMASaPNiCyCZ_uT8QC4)
+![Docker Image CLI](https://github.com/simrunsharma/Individual_Project_4/blob/main/images/docker_image_terminal.png)
 
 Here is a representation of the image in Dockerhub specifics: 
 ![DockerImage](https://github.com/simrunsharma/Individual_Project_4/blob/main/images/docker_image.png)
