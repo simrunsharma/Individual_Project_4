@@ -1,6 +1,8 @@
 # Auto-Scaling Container Project: Individual Project 4
 [![CI](https://github.com/simrunsharma/Individual_Project_4/actions/workflows/cicd.yml/badge.svg)](https://github.com/simrunsharma/Individual_Project_4/actions/workflows/cicd.yml)
 
+Youtube Link: https://youtu.be/N_WTppKuK4E
+
 ## Overview
 
 For this assignment, you will be creating a publicly accessible auto-scaling container using Azure App Services and Flask. This project provides an opportunity to apply your Flask knowledge from our Data Engineering Class and gain experience with building and deploying scalable web-hosted applications.
